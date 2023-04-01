@@ -1,0 +1,20 @@
+The dev_requirements.txt file lists the development dependencies needed to contribute to the aiGPT project. These include:
+* black: A code formatter that automatically formats the code to meet PEP 8 standards.
+* flake8: A linter that checks the code for PEP 8 compliance and potential errors.
+* pytest: A testing framework used to write and run unit tests.
+* pytest-cov: A plugin for pytest that generates coverage reports.
+* pre-commit: A tool that automatically checks the code for style, formatting, and potential errors before committing changes.
+* tox: A tool for automating testing across multiple Python environments.
+
+
+
+
+black==21.11b1
+flake8==4.0.1
+pytest==6.2.5
+pytest-cov==3.0.0
+pre-commit==2.15.0
+tox==3.24.3
+
+
+"codegpt.apiKey": "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"

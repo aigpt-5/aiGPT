@@ -1,0 +1,54 @@
+import spacy
+
+# Load language models
+en_nlp = spacy.load('en_core_web_sm')
+ar_nlp = spacy.load('xx_ent_wiki_sm')  # replace xx with appropriate code for Arabic
+es_nlp = spacy.load('es_core_news_sm')
+de_nlp = spacy.load('de_core_news_sm')
+zh_nlp = spacy.load('zh_core_web_sm')
+hi_nlp = spacy.load('hi_core_web_sm')
+zu_nlp = spacy.load('zu_core_news_sm')
+sw_nlp = spacy.load('swahili_core_news_sm')
+sn_nlp = spacy.load('snlp_shona')
+edo_nlp = spacy.load('edo')
+af_nlp = spacy.load('af')
+pcm_nlp = spacy.load('pcm_ner')
+
+def process_text(text, lang):
+    """Process the input text and return a list of tokens for the specified language."""
+    if lang == 'en':
+        nlp = en_nlp
+    elif lang == 'ar':
+        nlp = ar_nlp
+    elif lang == 'es':
+        nlp = es_nlp
+    elif lang == 'de':
+        nlp = de_nlp
+    elif lang == 'zh':
+        nlp = zh_nlp
+    elif lang == 'hi':
+        nlp = hi_nlp
+    elif lang == 'zu':
+        nlp = zu_nlp
+    elif lang == 'sw':
+        nlp = sw_nlp
+    elif lang == 'sn':
+        nlp = sn_nlp
+    elif lang == 'edo':
+        nlp = edo_nlp
+    elif lang == 'af':
+        nlp = af_nlp
+    elif lang == 'pcm':
+        nlp = pcm_nlp
+    else:
+        raise ValueError(f"Unsupported language code: {lang}")
+        
+    doc = nlp(text)
+    tokens = [token.text for token in doc]
+    return tokens
+text = "Good morning"
+lang = "en"
+tokens = process_text(text, lang)
+print(tokens)
+
+['Good', 'morning']

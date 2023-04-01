@@ -1,0 +1,13 @@
+# function to include required gems
+def include_gems
+  # include neural network libraries
+  gem 'neural'
+  gem 'dl'
+  
+  # include AI and machine learning libraries
+  gem 'ai'
+  gem 'ml'
+  gem 'scikit-learnin'
+  gem 'reinforce-learning'
+  gem 'transfr-learning'
+end

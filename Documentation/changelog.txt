@@ -1,0 +1,20 @@
+aiDrive Changelog
+v1.0 (2022-01-01)
+Initial release of aiDrive platform, offering ride-hailing and delivery services.
+Implemented aiDrive-Driver, allowing individuals to sign up as drivers for aiDrive's ride-hailing services.
+Added aiChat for customer engagement and support.
+v1.1 (2022-02-01)
+Added aiFood, offering food and grocery delivery services.
+Improved the user interface of the aiDrive platform.
+Added real-time tracking for aiDrive and aiFood services.
+Introduced aiRetailer, providing e-commerce services for retailers to sell products online.
+v1.2 (2022-03-01)
+Added aiFreight, offering freight delivery services.
+Implemented aiHeavy Equipment, connecting businesses and contractors with owners of heavy equipment for construction projects.
+Added aiRider, offering ride-sharing services for individuals.
+Improved the overall performance and stability of the aiDrive platform.
+v1.3 (2022-04-01)
+Added aiCar Towing, connecting customers with towing service providers for vehicle breakdowns and accidents.
+Implemented aiSchool Bus, providing transportation services for students to and from school and providing real-time tracking for parents.
+Introduced aiConnect, connecting and matching single people around the globe with others in their community for networking, events, and socializing.
+Updated the aiGPT language model for improved text generation capabilities.

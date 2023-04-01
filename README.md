@@ -1,5 +1,6 @@
 # aiGPT
-Repository for aiGPT, a company ecosystem for AI-driven solutions
+Repository for aiGPT, a company ecosystem for AI-driven solutions:
+
 aiGPT/
 ├── Code/
 │   ├── data/
